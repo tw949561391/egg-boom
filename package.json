@@ -1,6 +1,6 @@
 {
   "name": "egg-boom",
-  "version": "1.0.8",
+  "version": "1.2.0",
   "description": "http errors",
   "eggPlugin": {
     "name": "boom"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "boom": "^7.1.1"
+    "boom": "^7.2.0"
   },
   "devDependencies": {
     "autod": "^3.0.0",
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-boom.git"
+    "url": "git+https://github.com/tw949561391/egg-boom.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/tw949561391/egg-boom/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-boom#readme",
+  "homepage": "https://github.com/tw949561391/egg-boom#readme",
   "author": "TristanWong",
   "license": "MIT"
 }
