@@ -1,6 +1,6 @@
 {
   "name": "egg-boom",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "http errors",
   "eggPlugin": {
     "name": "boom"
@@ -21,8 +21,7 @@
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.13.0",
     "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "webstorm-disable-index": "^1.2.0"
+    "eslint-config-egg": "^5.1.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -34,7 +33,8 @@
     "lint": "eslint .",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
+    "autod": "autod",
+    "upload": "git commit ./  -m publish && git push && npm publish"
   },
   "files": [
     "app",
