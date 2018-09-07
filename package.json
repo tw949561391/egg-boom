@@ -1,6 +1,6 @@
 {
   "name": "egg-boom",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "http errors",
   "eggPlugin": {
     "name": "boom"

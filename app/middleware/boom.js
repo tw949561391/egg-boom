@@ -6,7 +6,7 @@ module.exports = () => {
                 next();
         } catch (error) {
             if (!ctx.Boom.isBoom(error)) {
-                throw ctx.Boom.boomify(error, {statusCode: e.statusCode || e.status || 500});
+                throw ctx.Boom.boomify(error, {statusCode: error.statusCode || error.status || 500});
             } else {
                 throw error;
             }
